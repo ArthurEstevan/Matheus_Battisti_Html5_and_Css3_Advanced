@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Learning new Subject About Html5 with Matheus Battisti</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+
+    <!-- Css Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+
+        .font-montserrat {
+            font-family: 'Montserrat', sans-serif;
+        }
+    </style>
+
+</head>
+
+<body class="container">
+
+
+    <header class="text-center mt-5">
+        <h3 class="font-montserrat">Aprendendo Novos Recursos do Html5</h3>
+    </header>
+
+    <article class="mt-5">
+
+        <!-- ==================================== START OF SECTION ABOUT MIDIA ==================================== -->
+        <div class="row">
+            <!-- ==================================== START OF CARD ==================================== -->
+            <div class="col-4">
+                <div class="card">
+                    <div class="card-header text-center">
+                        <h4 class="font-montserrat">Inserindo Video em Html5</h4>
+                    </div>
+                    <div class="card-body">
+                        <p class="font-montserrat">Com Html5 ficou muito facíl adicionar um vídeo em nosso site.</p>
+                        <div class="text-center">
+                            <video width="320" height="240" controls>
+                                <source src="/video/cidade.mp4" type="video/mp4">
+                            </video>
+                        </div>
+                    </div>
+                    <div class="card-footer">
+                        <p class="font-montserrat">Você pode ver com detalhes como isso foi feito no arquivo Html5 ou
+                            até mesmo na documenaçãos desse repositório.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!-- ==================================== END OF CARD ==================================== -->
+
+            <!-- ==================================== START OF CARD ==================================== -->
+            <div class="col-4">
+                <div class="card">
+                    <div class="card-header text-center">
+                        <h4 class="font-montserrat">Inserindo Audio em Html5</h4>
+                    </div>
+                    <div class="card-body">
+                        <p class="font-montserrat">Com Html5 ficou muito facíl adicionar um audio em nosso site.</p>
+                        <div class="text-center">
+                            <audio controls>
+                                <source src="audio/music.mp3" type="audio/mpeg">
+                            </audio>
+                        </div>
+                    </div>
+                    <div class="card-footer">
+                        <p class="font-montserrat">Você pode ver com detalhes como isso foi feito no arquivo Html5 ou
+                            até mesmo na documenaçãos desse repositório.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!-- ==================================== END OF CARD ==================================== -->
+
+            <!-- ==================================== START OF CARD ==================================== -->
+            <div class="col-4">
+                <div class="card">
+                    <div class="card-header text-center">
+                        <h4 class="font-montserrat">Inserindo Imagem em Html5</h4>
+                    </div>
+                    <div class="card-body">
+                        <p class="font-montserrat">Com Html5 ficou muito facíl adicionar uma imagem em nosso site.</p>
+                        <figure>
+                            <img src="img/ricefield.jpg" width="320" height="240" alt="Um lindo campo de arroz!">
+                            <figcaption>Um lindo campo de arroz!</figcaption>
+                        </figure>
+                    </div>
+                    <div class="card-footer">
+                        <p class="font-montserrat">Você pode ver com detalhes como isso foi feito no arquivo Html5 ou
+                            até mesmo na documenaçãos desse repositório.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!-- ==================================== END OF CARD ==================================== -->
+        </div>
+        <!-- ==================================== END OF SECTION ABOUT MIDIA ==================================== -->
+
+        <div class="row mt-5">
+            <div class="card">
+                <div class="card-header">
+                    <h4 class="font-montserrat">Aprendendo Alguns Atributos de Formulário</h4>
+                </div>
+                <div class="card-body">
+
+                    <!-- --------------------- START OF SECTION --------------------- -->
+                    <h5 class="font-montserrat">Formulários</h5>
+
+                    <p>
+                        Nesse formulário vamos utlizar required, placeholder e type. Todos atributos novos de formulário
+                        que foram adicionados ao Html5.
+                    </p>
+
+                    <form>
+                        <label>E-mail: </label>
+                        <input type="email" name="email" required placeholder="informe seu email" autofocus>
+                        <label>Nome: </label>
+                        <input type="text" name="nome" required placeholder="informe seu nome">
+                        <input type="submit" name="enviar">
+                    </form>
+                    <!-- --------------------- END OF SECTION --------------------- -->
+
+                    <hr>
+
+                    <!-- --------------------- START OF SECTION --------------------- -->
+                    <h5 class="font-montserrat">Contenteditable</h5>
+
+                    <p>Um atributo novo do Html5 é o contenteditable que nos deixar editar o parágrafo em tempo real no
+                        site. Apenas funciona visualmente não altera o arquivo raiz.</p>
+
+                    <div>
+                        <p contenteditable="true">Este é um parágrafo que pode ser editado.</p>
+                    </div>
+                    <!-- --------------------- END OF SECTION --------------------- -->
+
+                    <hr>
+
+                    <!-- --------------------- START OF SECTION --------------------- -->
+                    <h5 class="font-montserrat">Html5 Semântica</h5>
+                    <p>
+                        Aqui apenas vou resaltar que todo esse conteúdo que estou disponibilizando está identado
+                        semânticamente, ou seja possui um header, article, aside e footer.
+                    </p>
+
+                    <figure class="text-center">
+                        <img src="img/html5-tags-semanticas.jpg" alt="Html5 Semântico">
+                        <figcaption>Lembre-se o figure também é uma tag semântica, então use com cuidado mas use.
+                        </figcaption>
+                    </figure>
+                    <!-- --------------------- END OF SECTION --------------------- -->
+
+                    <hr>
+
+                    <!-- --------------------- START OF SECTION --------------------- -->
+                    <h5 class="font-montserrat">Details</h5>
+
+                    <p>
+                        Vamos dar uma olhada também em details que é uma tag muito utilizada para esconder ou mostrar
+                        conteúdo com apenas um click. Podemos também definir o atributo open="open", assim o texto irá
+                        ser mostrado ao carregar a página.
+                    </p>
+
+                    <details open="open">
+                        <summary>Cachorro</summary>
+                        <p>Um animal doméstico que encontramos na maioria dos lares.</p>
+                    </details>
+
+                    <details>
+                        <summary>Gato</summary>
+                        <p>Um animal doméstico que encontramos na maioria dos lares.</p>
+                    </details>
+                    <!-- --------------------- END OF SECTION --------------------- -->
+
+                    <hr>
+
+                    <!-- --------------------- START OF SECTION --------------------- -->
+                    <h5 class="font-montserrat">Datalist</h5>
+
+                    <p>Vamos dar uma olhada como fazer um input com uma lista para o usuario selecionar.</p>
+                    <form>
+                        <input list="animais" name="animal">
+                        <datalist id="animais">
+                            <option value="Tigre"></option>
+                            <option value="Leão"></option>
+                            <option value="Jaguar"></option>
+                        </datalist>
+                    </form>
+                    <!-- --------------------- END OF SECTION --------------------- -->
+
+                    <hr>
+
+                    <!-- --------------------- START OF SECTION --------------------- -->
+                    <h5 class="font-montserrat">Barra de Progresso</h5>
+                    
+                    <p>Uma tag muito interessante em Html5 e a barra de progresso que nos economiza diversas linhas, devido a na maioria dos casos ser feita com Javascript.</p>
+                    <progress value="50" max="100">
+
+                </div>
+                <div class="card-footer">
+                    Todos conteudo acima esta disponivel em meu Github com documenação de como fazer cada tag e como utlizar.
+                </div>
+            </div>
+        </div>
+
+    </article>
+
+    <aside>
+
+    </aside>
+
+    <footer class="mt-5">
+
+    </footer>
+
+    <!-- JavaScript Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
