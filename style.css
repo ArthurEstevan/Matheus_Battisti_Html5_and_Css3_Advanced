@@ -1,0 +1,125 @@
+@keyframes animacao01 {
+    from {background-color: red;}
+    to {background-color: yellow;}
+}
+
+.animation-01 {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation-name: animacao01;
+    animation-duration: 5s;
+    text-align: center;
+}
+
+@keyframes animacao02 {
+    0%  {}
+    30% {width: 100px;}
+    60% {background-color: red;}
+    80% {left: 100px; background-color: blue;}
+    100% {height: 100px;}
+}
+
+.animation-02 {
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    animation-name: animacao02;
+    animation-duration: 6s;
+    position: relative;
+}
+
+@keyframes animacao03 {
+    from {left: 0;}
+    to {left: 200px; background-color: green;}
+}
+
+.animation-03 {
+    width: 100px;
+    height: 100px;
+    background-color: purple;
+    position: relative;
+    animation-name: animacao03;
+    animation-duration: 6s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes animacao04{
+    from {left: 0}
+    to {left: 150px;}
+}
+
+.box {
+    background-color: orange;
+    width: 100px;
+    height: 50px;
+    margin: 1rem;
+    position: relative;
+    animation-name: animacao04;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    text-align: center;
+}
+
+#animation-04 {
+    animation-timing-function: linear;
+}
+#animation-05 {
+    animation-timing-function: ease;
+}
+#animation-06 {
+    animation-timing-function: ease-in;
+}
+#animation-07 {
+    animation-timing-function: ease-out;
+}
+#animation-08 {
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes animacao05 {
+    0% {left: 0px;}
+    25% {left: 20px; background-color: blue;}
+    70% {left: 100px; background-color: orange;}
+    100% {left: 50px; background-color: red;}
+}
+
+#animation-09 {
+    background-color: darkblue;
+    width: 50px;
+    height: 50px;
+    position: relative;
+    animation: animacao05 5s linear 2s infinite;
+}
+
+.btn-not-bootstrap {
+    display: block;
+    position: relative;
+    padding: 10px;
+    margin-bottom: 25px;
+    width: 150px;
+    height: 75px;
+    color: #FFF;
+    text-transform: uppercase;
+    background-color: #333;
+    border: 1px solid #333;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.btn-not-bootstrap:hover {
+    color: #333;
+    background-color: #FFF;
+}
+
+.transition {
+    width: 50px;
+    height: 100px;
+    background-color: red;
+    transition: 4s;
+}
+
+.transition:hover {
+    width: 300px;
+}
