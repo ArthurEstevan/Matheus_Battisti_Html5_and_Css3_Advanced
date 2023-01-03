@@ -1,3 +1,4 @@
+/* STARTING ABOUT ANIMATION IN CSS3 */
 @keyframes animacao01 {
     from {background-color: red;}
     to {background-color: yellow;}
@@ -92,7 +93,9 @@
     position: relative;
     animation: animacao05 5s linear 2s infinite;
 }
+/* ENDING ABOUT ANIMATION IN CSS3 */
 
+/* STARTING ABOUT TRANSITION IN CSS3 */
 .btn-not-bootstrap {
     display: block;
     position: relative;
@@ -123,3 +126,92 @@
 .transition:hover {
     width: 300px;
 }
+/* ENDING ABOUT TRANSITION IN CSS3 */
+
+/* STARTING ABOUT CALC IN CSS3 */
+.calc {
+    height: 250px;
+    width: 500px;
+    position: relative;
+    margin: 20px;
+    background-color: #DDD;
+    border: 1px solid red;
+}
+
+.inner-calc {
+    height: 50px;
+    margin: 10px;
+    position: relative;
+    background-color: red;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bolder;
+    color: #FFF;
+    padding-top: 10px;
+}
+
+.calcone {
+    width: calc(50% + 50px);
+}
+
+.calctwo {
+    width: calc(50% - 50px);
+}
+
+.calcthree {
+    width: calc();
+}
+
+.calcthree {
+    width: calc((50% * 2) - 20px);
+}
+
+.calcfour {
+    width: calc(50% / 2);
+}
+/* ENDING ABOUT TRANSITION IN CSS3 */
+
+/* STARTING ABOUT GRADIENT IN CSS3 */
+.gradient-box {
+    width: 500px;
+    height: 200px;
+    position: relative;
+    margin: 20px;
+}
+
+.gradientone {
+    background-image: linear-gradient(purple, blue);
+}
+
+.gradienttwo {
+    background-image: linear-gradient(to right, purple, blue);
+}
+
+.gradientthree {
+    background-image: linear-gradient(to left, purple, blue);
+}
+
+.gradientfour {
+    background-image: linear-gradient(to top, purple, blue);
+}
+
+.gradientfive {
+    background-image: linear-gradient(to top right, purple, blue);
+}
+
+.gradientsix {
+    background-image: linear-gradient(to top left, purple, blue);
+}
+
+.gradientseven {
+    background-image: radial-gradient(#3A3042, #DB9D47, #FF784F);
+}
+
+.gradienteight {
+    background-image: radial-gradient(#3A3042 10%, #DB9D47 30%, #FF784F);
+}
+
+.gradientnine {
+    background-image: radial-gradient(circle, #3A3042 10%, #DB9D47 30%, #FF784F);
+}
+/* ENDING ABOUT GRADIENT IN CSS3 */
