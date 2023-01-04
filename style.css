@@ -215,3 +215,45 @@
     background-image: radial-gradient(circle, #3A3042 10%, #DB9D47 30%, #FF784F);
 }
 /* ENDING ABOUT GRADIENT IN CSS3 */
+
+/* STARTING ABOUT FONT-FACE IN CSS3 */
+@font-face {
+    font-family: "Lage Grafica";
+    src: url(fonts/lage_grafica.ttf);
+}
+
+.fontface {
+    font-family: "Lage Grafica";
+}
+/* ENDING ABOUT FONT-FACE IN CSS3 */
+
+/* STARTING ABOUT MEDIA-QUERY IN CSS3 */
+.media-querry {
+    height: 200px;
+    width: 600px;
+    background-color: red;
+}
+
+@media (max-width: 1000px) {
+    .media-querry {
+        width: 500px;
+        background-color: blue;
+    }
+}
+/* ENDING ABOUT MEDIA-QUERY IN CSS3 */
+
+/* STARTING ABOUT BORDER-RADIUS IN CSS3 */
+.border {
+    width: 100px;
+    height: 100px;
+    background-color: purple;
+    margin: 20px;
+}
+
+.border-radius-one {
+    border-radius: 50%;
+}
+
+.border-radius-two {
+    border-top-right-radius: 20px;
+}
