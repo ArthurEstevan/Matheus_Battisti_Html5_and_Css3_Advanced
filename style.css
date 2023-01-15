@@ -257,3 +257,73 @@
 .border-radius-two {
     border-top-right-radius: 20px;
 }
+/* ENDING ABOUT BORDER-RADIUS IN CSS3 */
+
+/* STARTING ABOUT FLEX BOX IN CSS3 */
+.container-flex {
+    display: flex;
+    background-color: #3A3042;
+    flex-direction: row;
+    justify-content: center;
+    height: 300px;
+    align-items: center;
+}
+
+.boxes {
+    margin: 1em;
+    /* 1° grow 2° shrink 3° basis */
+    /* flex: 1 1 auto; */
+    width: 100px;
+    height: 100px;
+}
+
+.first {
+    background-color: red;
+    text-align: center;
+    color: #FFF;
+    order: 1;
+    /* flex: 2 1 300px; */
+    align-self: flex-start;
+}
+
+.second {
+    background-color: green;
+    text-align: center;
+    color: #FFF;
+    order: 2;
+    /* flex: 1 1 300px; */
+    align-self: flex-end;
+}
+
+.third {
+    background-color: blue;
+    text-align: center;
+    color: #FFF;
+    order: 3;
+    /* flex: 1 2 300px; */
+}
+
+.section-description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.section-description p {
+    margin: 0;
+}
+
+/* 
+display: flex; - inicia o flex no container;
+flex-grow: (1 - infinito) - da tamanho ao elemento preechendo os espaços vazios;
+flex-shrink: (1 - infinito) - o contrário do grow;
+flex-basis: 300px - tamanho inicial do elemento, e o resto é preenchido pelo grow;
+flex shorthand - <grow> <shrink> <basis>;
+flex-direction: (column ou row) - muda a direção que os elementos estão;
+flex-order: muda a ordem dos elementos individualmente
+justify-content: (orizontal) - alinha os elementos no eixo principal
+align-item: (vertical) - alinha os elementos no eixo secundárop
+align-self: () - alinha o elemento em particular
+*/
+/* STARTING ABOUT FLEX BOX IN CSS3 */   
