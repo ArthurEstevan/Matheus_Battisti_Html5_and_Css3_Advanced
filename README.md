@@ -1,8 +1,8 @@
-# Matheus Battisti HTML5 e CSS3: Técnicas Avançadas
+# HTML5 e CSS3: Técnicas Avançadas ![](/html.png)![](/arquivo-css.png)
 
 ## _Repository with several subjects in html and css_
 
-> _Practical content carried out in the classroom during the Entra21 project._
+> _Practical content carried out in the classroom of Matheus Battisti._
 >
 > - **_HTML - Hyper Text Markup Language._**
 > - **_CSS - Cascading Style Sheets._**
