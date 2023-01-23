@@ -1,4 +1,4 @@
-# Matheus Battisti HTML5 e CSS3: Técnicas Avançadas (Com Flexbox e 5 Projetos)
+# Matheus Battisti HTML5 e CSS3: Técnicas Avançadas
 
 ## _Repository with several subjects in html and css_
 
