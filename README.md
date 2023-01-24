@@ -1,4 +1,4 @@
-# HTML5 e CSS3: Técnicas Avançadas ![](/html.png)![](/arquivo-css.png)
+# HTML5 and CSS3: Advanced Techniques ![](/html.png)![](/arquivo-css.png)
 
 ## _Repository with several subjects in html and css_
 
