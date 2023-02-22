@@ -1,4 +1,4 @@
-# HTML5 and CSS3: Advanced Techniques ![](/html.png)![](/arquivo-css.png)
+# HTML5 and CSS3: Advanced Techniques ![](/img/html.png)![](/img/arquivo-css.png)
 
 ## _Repository with several subjects in html and css_
 
@@ -7,9 +7,9 @@
 > - **_HTML - Hyper Text Markup Language._**
 > - **_CSS - Cascading Style Sheets._**
 
-![Gif Entra21](https://github.com/ArthurEstevan/Matheus_Battisti_Html5_and_Css3_Advanced/blob/main/OIP.jpg)
+![Gif Entra21](/img/OIP.jpg)
 
-## ![](/lista_green.png) _Below I will leave a list of projects_
+## ![](/img/lista_green.png) _Below I will leave a list of projects_
 
 | CLASSES | SUBJECTS |
 |---------|---------|
